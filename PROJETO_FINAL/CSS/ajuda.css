@@ -1,0 +1,65 @@
+body{
+    background-image: linear-gradient(rgb(181, 47, 47) 70%, rgb(0, 0, 0));
+    height:750px;
+}
+.aln1{
+    position: absolute;
+    top: -50px;
+    margin-left: -20px;
+}
+.aln2{
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    gap: 80px;
+    margin-left: 250px;
+    margin-top: 50px;
+}
+.h3{
+    font-family: milonga;
+    border-radius: 50px;
+    background-color: rgba(255, 255, 255, 0.76);
+    height: 40px;
+    width: 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border: outset 3px rgba(128, 128, 128, 0.47);
+}
+.quabranco{
+    position: absolute;
+    border-radius: 30px;
+    margin-left: 300px;
+    top: 260px;
+    width: 900px;
+    height: 270px;
+    background-image: linear-gradient(rgba(255, 255, 255, 0.977), rgba(255, 255, 255, 0.971));
+    z-index: -1;
+}
+.linha3{
+    border: 1px solid rgb(99, 56, 255);
+    margin-left: -10px;
+    margin-right: 400px;
+    margin-top: -10px;
+}
+#p6{
+    font-family: milonga;
+}
+.ttt{
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 400px;
+    margin-top: 120px;
+}
+
+#p50{
+    font-family: milonga;
+    font-size: 30px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}

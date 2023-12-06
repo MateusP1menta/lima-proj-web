@@ -1,0 +1,217 @@
+body{
+    background-image: linear-gradient(rgb(181, 47, 47) 70%, rgb(0, 0, 0));
+    height:750px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.aln1{
+    position: absolute;
+    top: -50px;
+    margin-left: -20px;
+}
+.aln2{
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    gap: 80px;
+    margin-left: 160px;
+    margin-top: 10px;
+}
+.h3{
+    font-family: milonga;
+    border-radius: 50px;
+    background-color: rgba(255, 255, 255, 0.76);
+    height: 40px;
+    width: 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border: outset 3px rgba(128, 128, 128, 0.47);
+}
+#h2{
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 30px;
+    background-color: rgba(255, 255, 255, 0.242);
+    width: 300px;
+    height: 50px;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px outset rgba(151, 151, 151, 0.522);
+}
+.aaa{
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    padding:10px;
+    background-size: cover;
+    gap: 10px;
+}
+.sss{
+    margin-top: 50px;
+}
+.search-container{
+    position: absolute;
+    width: 650px;
+    display: block;
+    margin-top: 55px;
+    margin-left: 450px;
+}
+input#search-bar{
+    margin: 0 auto;
+    width: 100%;
+    height: 45px;
+    padding: 0 20px;
+    font-size: 1rem;
+    outline: none;
+    border-radius: 60px;
+    border: 2px outset rgba(151, 151, 151, 0.522);
+    background-color: rgba(255, 255, 255, 0.242);
+}
+.search-icon{
+    position: relative;
+    float: right;
+    width: 75px;
+    height: 75px;
+    top: -62px;
+    right: -45px;
+
+}
+.matui{
+    position: absolute;
+    margin-left: 1235px;
+    margin-top: -35px;
+    border: 5px solid gray;
+}
+.quaa{
+    position: absolute;
+    width: 267px;
+    height: 730px;
+    background-color: rgba(255, 255, 255, 0.662);
+    margin-left: 1235px;
+    margin-top: 50px;
+    border: 5px solid gray;
+    z-index: -1;
+}
+.alinhh{
+    margin-left: 1270px;
+    margin-top: 120px;
+}
+.veigh2{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+#vein{
+    border-radius: 10px;
+    border: 2px outset red;
+    width: 80px;
+    height: 80px;
+}
+.p1{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 25px;
+}
+.orochi3{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+#oro{
+    border-radius: 10px;
+    border: 2px outset red;
+    width: 80px;
+    height: 80px;
+}
+.teto3{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+#tt{
+    border-radius: 10px;
+    border: 2px outset red;
+    width: 80px;
+    height: 80px;
+}
+.l77{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+#l7{
+    border-radius: 10px;
+    border: 2px outset red;
+    width: 80px;
+    height: 80px;
+}
+.fr{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+#frr{
+    border-radius: 10px;
+    border: 2px outset red;
+    width: 80px;
+    height: 80px;
+}
+.sd{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+#sid{
+    border-radius: 10px;
+    border: 2px outset red;
+    width: 80px;
+    height: 80px;
+}
+.shows{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: -650px;
+}
+.datas{
+    font-size: 20px;
+    font-family: Bradley Hand, cursive;
+    background-color: rgba(255, 255, 255, 0.681);
+    border: solid 5px red;
+}
+.datax{
+    font-size: 20px;
+    font-family: brandley hand, cursive;
+}
+.alndatas{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items:center;
+    gap: 10px;
+}
+.datass{
+    font-size: 20px;
+    font-family: Bradley Hand, cursive;
+    background-color: rgba(255, 255, 255, 0.681);
+    border: solid 5px red;
+}
+.datasss{
+    font-size: 20px;
+    font-family: brandley hand, cursive;
+}
+.alndatass{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items:center;
+    gap: 10px;
+}

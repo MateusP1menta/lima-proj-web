@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HILLI TICKETS</title>
+    <link rel="stylesheet" type="text/css" href="../PROJETO/CSS/login.css">
+    <link rel="icon" href="../PROJETO/IMG/CHILLI-TICKETS.png">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+</head>
+<body>
+    <div class="aln1">
+        <img src="../PROJETO/IMG/CHILLI-TICKETS.png" height="280">
+    </div>
+    <div class="aln2">
+        <h3 class="h3"><img src="../PROJETO/IMG/casa.png" height="30"><a href="http://127.0.0.1:5500/PROJETO/in%C3%ADcio.html">HOME</a></h3>
+        <div class="h3">
+            <img src="../PROJETO/IMG/a.png" height="35">
+            <a href="http://127.0.0.1:5500/PROJETO/carrinho.html"><h3>CARRINHO</h3></a>
+        </div>
+        <h3 class="h3"><img src="../PROJETO/IMG/aj.png" height="25"><a href="http://127.0.0.1:5500/PROJETO/Ajuda.html">AJUDA</a></h3>
+        <h3 class="h3"><img src="../PROJETO/IMG/em.png" height="35"><a href="http://127.0.0.1:5500/PROJETO/Login.html">LOGIN</a></h3>  
+    </div>
+    <div class="camera">
+        <button id="c" onclick="starCamera()">abre camera</button>
+        <button id= "c" onclick="stopCamera()">fecha camera</button>
+    </div>
+    <video id="videoElement" width="500" height="300" autoplay></video>
+    <div class="quabranco"></div>
+    <div class="aln6">
+        <div class="font2">
+            <h1>Login</h1>
+        </div>
+        <div class="mmmm">
+            <div class="h9">E-mail ou CPF</div>
+        <input type="text" id="lll" name="email"><br>
+        <div class="h9">Senha</div>
+        <input type="password" id="lll" name="password"><br>
+        </div>
+        <div class="alinh">
+            <p>Não possui uma conta?</p><Br>
+            <p id="pp">Cadastre-se</p>
+        </div>
+        <div class="imagenss">
+            <img src="../Layout 2/IMG/google.png" height="40px">
+            <img src="../Layout 2/IMG/email.png" height="40px">
+            <img src="../Layout 2/IMG/+.png" height="40px">
+        </div>
+        <div class="alinha">
+            <p>Ajuda</p>
+        </div>
+    </div>
+    
+    <script>
+        let videoStream;
+        async function starCamera(){
+            const videoElement = document.getElementById("videoElement");
+            try{
+                videoStream = await navigator.mediaDevices.getUserMedia({video : true});
+                videoElement.srcObject = videoStream;
+            }catch(error){
+                console.error('Erro ao abrir a camera');
+                alert('Erro ao abrir a camera');
+            }
+        }
+        async function stopCamera(){
+            const videoElement = document.getElementById("videoElement");
+            if(videoStream){
+                const tracks = videoStream.getTracks();
+                tracks.forEach(track => track.stop());
+                videoElement.srcObject = null;
+                }
+            }
+    </script>
+</body>
+</html>

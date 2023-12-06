@@ -1,0 +1,90 @@
+body{
+    background-image: linear-gradient(rgb(181, 47, 47) 70%, rgb(0, 0, 0));
+    height:750px;
+}
+.aln1{
+    position: absolute;
+    top: -50px;
+    margin-left: -20px;
+}
+.aln2{
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    gap: 80px;
+    margin-left: 250px;
+    margin-top: 50px;
+}
+.h3{
+    font-family: milonga;
+    border-radius: 50px;
+    background-color: rgba(255, 255, 255, 0.76);
+    height: 40px;
+    width: 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border: outset 3px rgba(128, 128, 128, 0.47);
+}
+#h2{
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 30px;
+    background-color: rgba(255, 255, 255, 0.242);
+    width: 300px;
+    height: 50px;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px outset rgba(151, 151, 151, 0.522);
+}
+.aaa{
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    padding:10px;
+    background-size: cover;
+    gap: 5px;
+    margin-top: 130px;
+}
+#trappers{
+    border-radius: 10px;
+    border: outset 6px rgba(128, 128, 128, 0.47);
+}
+#trappers:hover{
+    border: 3px ridge white;
+    transition-duration: 500ms;
+    height: 250px;
+    width: 250px;
+}
+.sss{
+    margin-top: 50px;
+}
+.search-container{
+    position: absolute;
+    width: 650px;
+    display: block;
+    margin-top: 55px;
+    margin-left: 450px;
+}
+input#search-bar{
+    margin: 0 auto;
+    width: 100%;
+    height: 45px;
+    padding: 0 20px;
+    font-size: 1rem;
+    outline: none;
+    border-radius: 60px;
+    border: 2px outset rgba(151, 151, 151, 0.522);
+    background-color: rgba(255, 255, 255, 0.242);
+}
+.search-icon{
+    position: relative;
+    float: right;
+    width: 75px;
+    height: 75px;
+    top: -62px;
+    right: -45px;
+  }
